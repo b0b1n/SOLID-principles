@@ -1,6 +1,6 @@
 package LiskovSubtitution;
 
-public class MockingBird implements FlyingBird, Bird {
+public class MockingBird implements FlyingBird {
 	@Override
 	public void makesAsound() {
 		System.out.println(" Tiw Tiw :)");
